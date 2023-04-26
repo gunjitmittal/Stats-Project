@@ -1,0 +1,101 @@
+\documentclass{beamer}
+
+\usetheme{Madrid}
+\usepackage{blindtext}
+\title{Viewing Preferences of College Students }
+\subtitle{MA4240 - Applied Statistics}
+\author{\textbf{Contributors :\texorpdfstring{\\[0.5em]}{}}{\small Donal Loitam \and Himanshu Kumar Gupta \and Gunjit Mittal \texorpdfstring{\\}{}  Suraj Kumar \and Ravula Karthik \and Abhishek Kumar \texorpdfstring{\\}{}  Mannem Charan \and Iragavarapu Sai Pradeep \and Shivanshu}}
+\date{\today}
+\AtBeginSection[]{
+  \begin{frame}
+  \vfill
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center]{title}
+    \usebeamerfont{title}\insertsectionhead\par%
+  \end{beamercolorbox}
+  \vfill
+  \end{frame}
+}
+\setbeamertemplate{footline}{%
+  \leavevmode%
+  \ifnum\value{framenumber}=1% check if it's the first page
+    \hbox{%
+      \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.5ex,dp=1.125ex,leftskip=.3cm,rightskip=.3cm]{title in head/foot}%
+        \usebeamerfont{title in head/foot}\insertshorttitle
+      \end{beamercolorbox}%
+      \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.5ex,dp=1.125ex,leftskip=.3cm,rightskip=.3cm]{author in head/foot}%
+        \usebeamerfont{author in head/foot}\insertshortsubtitle\hfill\insertframenumber/\inserttotalframenumber
+      \end{beamercolorbox}}%
+  \else% for the rest of the pages
+    \hbox{%
+      \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.5ex,dp=1.125ex,leftskip=.3cm,rightskip=.3cm]{author in head/foot}%
+        \usebeamerfont{author in head/foot}\insertshorttitle
+      \end{beamercolorbox}%
+      \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.5ex,dp=1.125ex,leftskip=.3cm,rightskip=.3cm]{title in head/foot}%
+        \usebeamerfont{title in head/foot}\insertsectionhead\hfill\insertframenumber/\inserttotalframenumber
+      \end{beamercolorbox}}%
+  \fi%
+  \vskip0pt%
+}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+\section{Data Collection and Description}
+\begin{frame}{Data Collection and Description}
+    \blindtext
+\end{frame}
+\section{Data Summarization}
+\begin{frame}{Data Summarization}
+    \begin{itemize}
+        \item Item 1
+        \item Item 2
+        \item Item 3
+        \begin{itemize}
+            \item Subitem 1
+            \item Subitem 2
+        \end{itemize}
+    \end{itemize}
+
+    \begin{enumerate}
+        \item Number 1
+        \item Number 2
+    \end{enumerate}
+\end{frame}
+\section{Verifying Facts From Data}
+\begin{frame}{Verifying Facts From Data}
+    \begin{itemize}
+        \item Item 1
+        \item Item 2
+        \item Item 3
+        \begin{itemize}
+            \item Subitem 1
+            \item Subitem 2
+        \end{itemize}
+    \end{itemize}
+
+    \begin{enumerate}
+        \item Number 1
+        \item Number 2
+    \end{enumerate}
+\end{frame}
+\section{Inferences From Data }
+\begin{frame}{Inferences From Data}
+    \begin{itemize}
+        \item Item 1
+        \item Item 2
+        \item Item 3
+        \begin{itemize}
+            \item Subitem 1
+            \item Subitem 2
+        \end{itemize}
+    \end{itemize}
+
+    \begin{enumerate}
+        \item Number 1
+        \item Number 2
+    \end{enumerate}
+\end{frame}
+\end{document}
