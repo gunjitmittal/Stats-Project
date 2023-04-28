@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from sklearn.preprocessing import LabelEncoder, MultiLabelBinarizer
+from sklearn.preprocessing import LabelEncoder
 
 # Assuming the data is stored in a CSV file named 'data.csv'
 data1 = pd.read_excel("Data/data.xlsx")
@@ -17,6 +17,9 @@ single_option_columns=['gender', 'region', 'preferred_cinema', 'preferred_screen
 multi_option_columns=['top_genres', 'preferred_time', 'watch_options', 'language_options']
 num_columns=['age', 'watch_duration', 'weekly_duration', 'monthly_expense']
 data[multi_option_columns] = data[multi_option_columns].apply(lambda x: x.str.split(','))
+
+data.to_excel(excel_writer='preprocessed_data_label.xlsx')
+
 le = LabelEncoder()
 data[single_option_columns] = data[single_option_columns].apply(le.fit_transform)
 print(data[single_option_columns])
