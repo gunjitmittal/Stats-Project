@@ -5,7 +5,7 @@ For now i have loaded the data, removed the unnecessary fields, encoded the data
 
 
 ## Data-Visualisation 
-- [Donal Loitam](https://github.com/Donal-08)
+#### [Donal Loitam](https://github.com/Donal-08)
 In this project, we utilized various data visualization techniques to gain insights into the dataset. We created a range of plots using Python libraries such as Matplotlib and Seaborn, including:
 
 - Scatter plots to explore relationships between variables
