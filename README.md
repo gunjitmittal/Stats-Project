@@ -18,5 +18,8 @@ In this project, we utilized various data visualization techniques to gain insig
 - Box plots to compare distributions across groups
 
 These visualizations were key to our analysis, as they allowed us to quickly identify trends and patterns in the data, and helped us to identify any outliers or anomalies that required further investigation. Not to mention, they helped in supporting some results of hypothesis testing as well.
+## Hypothesis-Testing and Data-Visulisation
+#### [-Abhishek Kumar](https://github.com/Abhipank)
+We did many useful hypothesis tests on our collected data in order to get the ground truth probabiistic distribution of the data .Those Hypothesis tests also helped us to conclude and compare the about the day to day life and expenditure of students of various colleges across india.we could compare north students and south students and male and female students .Python was one of ours programming tool to complete the analysis.
 
 
